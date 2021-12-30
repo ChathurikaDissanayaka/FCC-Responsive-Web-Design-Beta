@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+body{
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: 'Mulish', sans-serif;
+    padding:0;
+}
+
+.menu{
+    width:80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding:16px;
+    max-width: 500px;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+h1, h2{
+    font-family: Impact,serif;
+}
+
+h1{
+    font-size:40px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+
+h2{
+    font-size:30px;
+}
+
+.established{
+    font-style: italic;
+}
+
+.item p { 
+    display:inline-block;
+    margin-bottom:5px;
+    margin-top:5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert{
+    text-align:left;
+    width:75%;
+}
+
+.price{
+    text-align:right;
+    width:25%;
+}
+
+hr{
+    height:4px;
+    background-color:chocolate;
+    border-color:chocolate;
+    border-style:none;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+/* FOOTER */
+footer{
+    font-size:14px;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    color:chocolate;
+}
+
+a:active{
+    color:chocolate;
+}
+
+a:visited{
+    color:black;
+}
+
+.address{
+    margin-bottom:5px;
+}
+
+
